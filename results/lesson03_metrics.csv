@@ -1,0 +1,5 @@
+model,split,metric,value
+DummyClassifier,train,accuracy,0.333333
+DummyClassifier,validation,accuracy,0.333333
+LogisticRegression,train,accuracy,0.977778
+LogisticRegression,validation,accuracy,0.933333
