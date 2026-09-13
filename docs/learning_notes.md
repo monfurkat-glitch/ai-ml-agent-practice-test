@@ -23,8 +23,8 @@ The agent may update **only the two TODO values in this table**, using `results/
 <!-- AGENT_TABLE_START -->
 | Model | Split | Metric | Value |
 |---|---|---|---:|
-| DummyClassifier | validation | accuracy | TODO |
-| LogisticRegression | validation | accuracy | TODO |
+| DummyClassifier | validation | accuracy | 0.333333 |
+| LogisticRegression | validation | accuracy | 0.933333 |
 <!-- AGENT_TABLE_END -->
 
 ## My explanation without AI
