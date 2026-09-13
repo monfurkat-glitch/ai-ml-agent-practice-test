@@ -2,13 +2,20 @@
 
 ## Current stage
 
-Starter repository copied. ML baseline has not been verified yet.
+Baseline has been run and verified. The comparison table in `docs/learning_notes.md` has been filled with the real validation values and the report check passes. Git commit/push for this change is still pending.
 
 ## Last verified result
 
-- Baseline run: **NOT RUN**
-- Report check: **NOT RUN**
-- Remote push: **NOT VERIFIED**
+- Baseline run: **VERIFIED** (ran `learning/03_baseline.py`, real output captured)
+- Report check: **PASS** (ran `scripts/check_report.py`, output: "PASS: comparison table matches the real validation metrics.")
+- Remote push: **NOT VERIFIED** (commit and push not yet run)
+
+## Current verified result
+
+From `results/lesson03_metrics.csv` (validation split, accuracy):
+
+- DummyClassifier: 0.333333
+- LogisticRegression: 0.933333
 
 ## Current constraints
 
@@ -19,14 +26,21 @@ Starter repository copied. ML baseline has not been verified yet.
 - Do not use the protected test set for model selection.
 - Do not invent or manually change measured values.
 
-## Open blockers
+## Open blockers / unfinished work
 
-None recorded yet.
+- `docs/learning_notes.md` table is filled but the change is not yet committed or pushed to `origin/main`.
+- The "My explanation without AI" section in `docs/learning_notes.md` is still unfilled (student to write by hand).
 
 ## Next action
 
-Run `learning/03_baseline.py` and inspect the real validation results.
+Choose and confirm a personal project brief.
+
+## Commit info
+
+- Branch: `main`
+- Remote: `origin` (`https://github.com/monfurkat-glitch/ai-ml-agent-practice-test.git`)
+- Current commit hash (HEAD, before the pending `docs/learning_notes.md` change): `d3f639744414003027bf513fd136fc412f779627`
 
 ## Brief status
 
-Not started. This training repository is completed **before** choosing the personal Capstone project.
+Training repository baseline exercise verified. This training repository is completed **before** choosing the personal Capstone project.
